@@ -4,8 +4,8 @@ build:
 	cargo build --release
 
 install:
-	mkdir -p ${DESTDIR}/usr/bin
-	cp target/release/redirect ${DESTDIR}/usr/bin/redirect
+	mkdir -p ${DESTDIR}/usr/local/bin
+	cp target/release/redirect ${DESTDIR}/usr/local/bin/redirect
 
 clean:
 	rm Cargo.lock

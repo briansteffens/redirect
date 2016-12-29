@@ -56,5 +56,6 @@ $ cd redirect
 Compile and install:
 
 ```
+$ make
 # make install
 ```
