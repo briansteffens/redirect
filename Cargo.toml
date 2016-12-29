@@ -1,0 +1,4 @@
+[package]
+name = "redirect"
+version = "0.0.1"
+authors = ["Brian Steffens <briansteffens@gmail.com>"]
